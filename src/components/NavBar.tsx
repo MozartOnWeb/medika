@@ -24,7 +24,7 @@ export default function NavBar() {
           >
             <path
               d="M1 7H15M1 1H15"
-              stroke="white"
+              stroke="#242424"
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
