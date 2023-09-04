@@ -34,7 +34,7 @@ function App() {
                 <path
                   d="M1 9L9 1M9 1H3M9 1V7"
                   stroke="#242424"
-                  strokeWidth="2"
+                  strokeWidth="1"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 />
@@ -44,9 +44,35 @@ function App() {
 
           <div className="hero__first__right">
             <div className="hero__top__right__card">
-              <div>
+              <div className="hero__top__right__card__left">
                 <h3>569+</h3>
-                <p>More than 569 tests have done this yearn in our lab.</p>
+                <p>
+                  More than 569 tests have <br /> done this yearn in our lab.
+                </p>
+                <div className="hero__top__right__card__left__images">
+                  <img src={MainImage} alt="main_image" />
+                  <img src={MainImage} alt="main_image" />
+                  <img src={MainImage} alt="main_image" />
+                </div>
+              </div>
+              <div className="hero__top__right__card__right">
+                <div>
+                  <svg
+                    width="10"
+                    height="10"
+                    viewBox="0 0 10 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 9L9 1M9 1H3M9 1V7"
+                      stroke="#242424"
+                      strokeWidth="1"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </div>
               </div>
             </div>
 
@@ -62,8 +88,44 @@ function App() {
                 >
                   <path
                     d="M1 9L9 1M9 1H3M9 1V7"
-                    stroke="#242424"
-                    strokeWidth="2"
+                    stroke="#fff"
+                    strokeWidth="1"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+              <button className="hero__top__right__button">
+                Labs
+                <svg
+                  width="10"
+                  height="10"
+                  viewBox="0 0 10 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 9L9 1M9 1H3M9 1V7"
+                    stroke="#fff"
+                    strokeWidth="1"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+              <button className="hero__top__right__button">
+                Test & Results
+                <svg
+                  width="10"
+                  height="10"
+                  viewBox="0 0 10 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 9L9 1M9 1H3M9 1V7"
+                    stroke="#fff"
+                    strokeWidth="1"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
