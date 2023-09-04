@@ -197,7 +197,47 @@ function App() {
           </div>
         </div>
 
-        <div className="hero__fourth"></div>
+        <div className="hero__fourth">
+          <img src={MainImage} alt="main_image" />
+          <div className="hero__fourth__top">
+            <div className="hero__fourth__top__left">
+              <h4>231 hours</h4>
+              <p>
+                <span>Classes</span> • Online
+              </p>
+            </div>
+            <div className="hero__fourth__top__right">
+              <p>See all</p>
+              <div>
+                <svg
+                  width="10"
+                  height="10"
+                  viewBox="0 0 10 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 9L9 1M9 1H3M9 1V7"
+                    stroke="#242424"
+                    strokeWidth="1"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div className="hero__fourth__bottom">
+            <h4>
+              Exercice tips from world <br /> best mentors
+            </h4>
+            <form action="">
+              <input type="email" placeholder="Enter your email" />
+              <button>Subscribe free</button>
+            </form>
+          </div>
+        </div>
       </section>
     </main>
   );
