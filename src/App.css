@@ -87,6 +87,24 @@
   grid-area: first;
 }
 
+@media screen and (max-width: 908px) {
+  .hero {
+    height: 100%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .hero__first {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+    padding-bottom: 3rem;
+  }
+  .hero__top__right__card {
+    display: none;
+  }
+}
+
 .hero__first > img {
   width: 100%;
   height: 100%;
@@ -129,6 +147,12 @@
   padding: 2rem;
   gap: 6.5rem;
   margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 908px) {
+  .hero__top__right__card {
+    display: none;
+  }
 }
 
 .hero__top__right__card__left > h3 {
