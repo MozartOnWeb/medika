@@ -5,6 +5,9 @@ import NavBar from "./components/NavBar";
 
 //import image
 import MainImage from "../src/assets/images/main.jpg";
+import User1 from "../src/assets/images/user1.jpg";
+import User2 from "../src/assets/images/user2.jpg";
+import User3 from "../src/assets/images/user3.jpg";
 
 function App() {
   return (
@@ -50,9 +53,9 @@ function App() {
                   More than 569 tests have <br /> done this yearn in our lab.
                 </p>
                 <div className="hero__top__right__card__left__images">
-                  <img src={MainImage} alt="main_image" />
-                  <img src={MainImage} alt="main_image" />
-                  <img src={MainImage} alt="main_image" />
+                  <img src={User1} alt="main_image" />
+                  <img src={User2} alt="main_image" />
+                  <img src={User3} alt="main_image" />
                 </div>
               </div>
               <div className="hero__top__right__card__right">
