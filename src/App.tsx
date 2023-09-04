@@ -135,7 +135,32 @@ function App() {
           </div>
         </div>
 
-        <div className="hero__second"></div>
+        <div className="hero__second">
+          <img src={MainImage} alt="main_image" />
+          <div className="hero__second__top">
+            <button>Visite type</button>
+            <div>
+              <svg
+                width="10"
+                height="10"
+                viewBox="0 0 10 10"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 9L9 1M9 1H3M9 1V7"
+                  stroke="#242424"
+                  strokeWidth="1"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </div>
+          <p>
+            General <br /> Consultation
+          </p>
+        </div>
 
         <div className="hero__third"></div>
 

@@ -66,7 +66,7 @@
   margin-top: 1rem;
 
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1.5fr;
   grid-template-rows: 1fr 1fr;
   gap: 15px 15px;
   grid-template-areas:
@@ -165,6 +165,7 @@
   height: 50px;
   border-radius: 100%;
   background-color: #fff;
+  cursor: pointer;
 }
 
 .hero__top__right__card__right > div {
@@ -193,10 +194,64 @@
   border-radius: 30px;
 }
 
+.hero__top__right__button > svg {
+  margin-left: 0.3rem;
+}
+
+/* HERO SECOND */
 .hero__second {
   grid-area: second;
   border-radius: 30px;
-  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  overflow: hidden;
+  padding: 2rem;
+}
+
+.hero__second > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.hero__second > p {
+  color: #f5f5f5;
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+  line-height: 130%;
+}
+
+.hero__second__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__second__top > button {
+  color: #242424;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 0.6rem 1.5rem;
+  border-radius: 30px;
+}
+
+.hero__second__top > div {
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero__third {
