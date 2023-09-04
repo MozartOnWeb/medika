@@ -5,6 +5,9 @@ import NavBar from "./components/NavBar";
 
 //import image
 import MainImage from "../src/assets/images/main.jpg";
+import SecondImage from "../src/assets/images/second.jpg";
+import ThirdImage from "../src/assets/images/third.jpg";
+import Fourth from "../src/assets/images/fourth.jpg";
 import User1 from "../src/assets/images/user1.jpg";
 import User2 from "../src/assets/images/user2.jpg";
 import User3 from "../src/assets/images/user3.jpg";
@@ -139,7 +142,7 @@ function App() {
         </div>
 
         <div className="hero__second">
-          <img src={MainImage} alt="main_image" />
+          <img src={SecondImage} alt="main_image" />
           <div className="hero__second__top">
             <button>Visite type</button>
             <div>
@@ -171,7 +174,7 @@ function App() {
             at Your Fingertips
           </p>
           <div className="hero__third__bottom">
-            <img src={MainImage} alt="main_image" />
+            <img src={ThirdImage} alt="main_image" />
 
             <div className="hero__second__top">
               <button>Service</button>
@@ -201,7 +204,7 @@ function App() {
         </div>
 
         <div className="hero__fourth">
-          <img src={MainImage} alt="main_image" />
+          <img src={Fourth} alt="main_image" />
           <div className="hero__fourth__top">
             <div className="hero__fourth__top__left">
               <h4>231 hours</h4>
