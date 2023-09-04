@@ -11,9 +11,9 @@ function App() {
     <main>
       <NavBar />
       <section className="hero">
-        <div className="hero__top">
+        <div className="hero__first">
           <img src={MainImage} alt="main_image" />
-          <div className="hero__top__left">
+          <div className="hero__first__left">
             <h1>
               Meditation for <br />
               Mind, Body and Soul
@@ -42,7 +42,7 @@ function App() {
             </button>
           </div>
 
-          <div className="hero__top__right">
+          <div className="hero__first__right">
             <div className="hero__top__right__card">
               <div>
                 <h3>569+</h3>
@@ -72,17 +72,12 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="hero__bottom">
-          <div className="first__card">
-            <img src={MainImage} alt="main_image" />
-          </div>
-          <div className="second__card">
-            <img src={MainImage} alt="main_image" />
-          </div>
-          <div className="third__card">
-            <img src={MainImage} alt="main_image" />
-          </div>
-        </div>
+
+        <div className="hero__second"></div>
+
+        <div className="hero__third"></div>
+
+        <div className="hero__fourth"></div>
       </section>
     </main>
   );
