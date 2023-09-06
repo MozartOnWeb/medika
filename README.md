@@ -9,7 +9,7 @@ This is the hero section of Medika. I work on it just for training purpose.
 
 ## Screenshots
 
-- **Desktop**: ![Desktop](https://firebasestorage.googleapis.com/v0/b/projects-screenshots.appspot.com/o/mandjoudama.io%2F864shots_so.png?alt=media&token=74523afb-0e14-405f-b5f5-01a70e627e5b)
+- **Desktop**: ![Desktop](https://github.com/MozartOnWeb/medika/assets/79732869/ca90101b-cc29-4973-8ded-cee20ee0e589)
 
 - **Mobile**: ![Mobile](https://firebasestorage.googleapis.com/v0/b/projects-screenshots.appspot.com/o/mandjoudama.io%2F864shots_so.png?alt=media&token=74523afb-0e14-405f-b5f5-01a70e627e5b)
 
