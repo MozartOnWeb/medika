@@ -18,8 +18,8 @@ This is the hero section of Medika. I work on it just for training purpose.
 This application requires Node.js v16.13+.
 
 ```bash
-git clone https://github.com/MozartOnWeb/mandjoudama.io.git
-cd mandjoudama.io
+git clone https://github.com/MozartOnWeb/medika.git
+cd medika
 yarn install
 yarn dev
 ```
