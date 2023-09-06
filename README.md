@@ -1,29 +1,17 @@
-# mandjoudama.io
+# Medika
 
-This is my personal portfolio website, built using Next.js 13. It showcases my projects, skills, and experience.
+This is the hero section of Medika. I work on it just for training purpose.
 
-- **Framework**: [Next.js](https://nextjs.org/)
-- **Headless CMS**: [Sanity.io](https://sanity.io)
+- **Framework**: [React.js](https://fr.legacy.reactjs.org/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Tooling**: [Vite](https://vitejs.dev/)
 - **Deployment**: [Vercel](https://vercel.com)
-- **Styling**: [SCSS](https://sass-lang.com/)
-- **Analytics**: [Vercel Analytics](https://vercel.com/analytics)
 
 ## Screenshots
 
-- **Hero Section**: ![Hero Section](https://firebasestorage.googleapis.com/v0/b/projects-screenshots.appspot.com/o/mandjoudama.io%2F864shots_so.png?alt=media&token=74523afb-0e14-405f-b5f5-01a70e627e5b)
+- **Desktop**: ![Desktop](https://firebasestorage.googleapis.com/v0/b/projects-screenshots.appspot.com/o/mandjoudama.io%2F864shots_so.png?alt=media&token=74523afb-0e14-405f-b5f5-01a70e627e5b)
 
-## TODO
-
-In early 2023, I start creating my site to use the new `app/` directory in Next.js 13. It still in development, and there are still a few things I want to do:
-
-- [x] Setup Sanity CMS & embedded in Next.js
-- [ ] Integrate all pages & make them responsive
-- [ ] Create contents in Sanity CMS
-- [ ] Fetch data from Sanity CMS
-- [ ] Add `@vercel/analytics`
-- [x] Improved SEO support
-
-You can learn more about the `app/` directory [here](https://beta.nextjs.org/docs).
+- **Mobile**: ![Mobile](https://firebasestorage.googleapis.com/v0/b/projects-screenshots.appspot.com/o/mandjoudama.io%2F864shots_so.png?alt=media&token=74523afb-0e14-405f-b5f5-01a70e627e5b)
 
 ## Running Locally
 
